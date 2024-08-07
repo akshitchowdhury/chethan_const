@@ -12,7 +12,7 @@ const NavTop = () => {
           <ul className="flex flex-col sm:flex-row items-center sm:space-x-4">
             <li className="flex items-center text-gray-100 hover:text-amber-400 transition ease-in-out duration-300">
               <FontAwesomeIcon icon={faEnvelope} className='px-2'/>
-              <a href="mailto:admissions@hillsideacademy.in" className="">
+              <a href="mailto:chethanconstructions.in" className="">
                 chethancontructions.com
               </a>
             </li>
