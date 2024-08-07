@@ -3,10 +3,10 @@ import React from 'react';
 const HomeHeroText = () => {
   return (
     <div className="container absolute -my-[50%] lg:-my-[0%] md:-my-[0%] md:labsolute md:top-0 lg:absolute lg:right-96 lg:top-[300px]">
-      <div className="text-left px-4 md:mx-[40%]">
-      <p className="text-sm md:text-base my-2 text-white lg:text-lg">
+      <div className="text-left px-4 md:mx-[45%] w-[400px]">
+      {/* <p className="text-sm md:text-base my-2 text-white lg:text-lg">
         Connecting the Nation
-        </p>
+        </p> */}
         <h1 className="text-4xl text-white font-semibold mb-2 md:text-5xl lg:text-6xl">
   CHETHAN <span className="animate-colorChange">CONSTRUCTIONS</span>
 </h1>

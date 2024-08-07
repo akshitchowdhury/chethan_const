@@ -6,11 +6,15 @@ import { faEnvelope, faLocation, faPhone } from '@fortawesome/free-solid-svg-ico
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons/faMapMarkerAlt';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ContactHero from './ContactHero';
+import ContactText from './ContactText';
 AOS.init();
 
 const Contact = () => {
   return (
     <>
+    <ContactHero/>
+    <ContactText/>
     <div data-aos="fade-up" className="contact h-auto md:h-auto flex flex-col md:flex-row md:space-x-10 space-y-10 md:space-y-0 p-6 md:p-14">
       {/* Left section with Contact Form */}
       <ContactForm/>

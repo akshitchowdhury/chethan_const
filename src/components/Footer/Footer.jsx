@@ -18,7 +18,7 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../../assets/logo.png"
 const Footer = () => {
   return (
     <div className="footer bg-zinc-950 py-8">
@@ -35,7 +35,10 @@ const Footer = () => {
                   alt="Footer Logo"
                   className="w-[150px] h-[140px]"
                 /> */}
-                FooterLogo
+                <div className="font-bold flex flex-row items-center">
+            <img src={logo} className='w-[150px] h-[120px] py-2'/>
+            
+        </div>
                 <p>
                   Established in 1992, Chethan Constructions boasts over four decades
                   of expertise in delivering unparalleled travel experiences and
