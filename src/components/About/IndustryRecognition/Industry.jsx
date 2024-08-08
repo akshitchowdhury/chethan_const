@@ -1,15 +1,20 @@
 import React from 'react'
 import { FaHardHat, FaProjectDiagram, FaUsers, FaRocket, FaHandshake, FaShieldAlt, FaMedal, FaTrophy } from 'react-icons/fa';
-import "./Industry.css"
+// import "./Industry.css"
+import industryBg from "../../../assets/contactBg.jpg"
 const Industry = () => {
   return (
     <>
-          <div className='industry'
-          >
 
+           <div className='relative w-full h-[200px] md:h-[700px]' >
+  <img src={industryBg} className='object-cover w-full h-full mix-blend-multiply' alt="Background Image"/>
+  <div className='absolute inset-0 bg-blue-400 opacity-40'></div>
 </div>
-<div>
-          <div className='p-6'
+
+
+<div className=' md:absolute  top-[10rem] lg:-my-[0%] md:-my-[0%] md:labsolute md:top-0
+     lg:absolute lg:right-30 lg:top-[130rem]'>
+          <div className='py-12 md:p-6'
           >
           <h2 className="text-3xl font-semibold mb-6 text-yellow-300">What We Offer to You</h2>
           <div className='w-[300px] md:w-[500px] h-[2px] bg-yellow-300 my-4'></div>

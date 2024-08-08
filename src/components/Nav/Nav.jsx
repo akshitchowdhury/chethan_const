@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavTop from './NavTop/NavTop';
 import logo from "../../assets/logo.png"
+import ServicesDropdown from './ServicesDropdown/ServicesDropdown';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,13 +30,15 @@ const Nav = () => {
     ABOUT
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
-  <Link 
+  {/* <Link 
     to="/services" 
     className="text-zinc-50 font-medium relative hover:text-amber-400 group"
   >
     SERVICES
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-  </Link>
+  </Link> */}
+
+  <ServicesDropdown/>
   <Link 
     to="/gallery" 
     className="text-zinc-50 font-medium relative hover:text-amber-400 group"

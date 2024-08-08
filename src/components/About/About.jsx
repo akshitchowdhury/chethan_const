@@ -22,7 +22,7 @@ const About = () => {
           <div className='w-[300px] md:w-[500px] h-[2px] bg-yellow-300'></div>
           <div className='flex flex-col md:flex-row py-4'>
           
-          <p className="text-lg mb-8 leading-relaxed md:w-[700px]">
+          <p className="text-sm md:text-lg mb-8 leading-relaxed md:w-[700px]">
           At Chethan, we bring over 20 years of extensive experience and unwavering professionalism to every project. We have established a solid reputation for excellence and reliability in the construction industry by successfully executing diverse and challenging projects across India. Our journey has been marked by continuous innovation, adaptability to evolving industry standards, and a commitment to pushing the boundaries of what's possible in construction. From humble beginnings to becoming a recognized leader in the field, we've consistently delivered results that not only meet but exceed our clients' expectations. 
           </p>
           
@@ -55,7 +55,7 @@ const About = () => {
           
           
         <img src={aboutImg} className='md:w-1/2'/>
-          <p className="text-lg mb-8 leading-relaxed md:w-[700px] py-4">
+          <p className="text-sm md:text-lg mb-8 leading-relaxed md:w-[700px] py-4">
           Our portfolio spans a wide range of projects, including residential complexes, commercial buildings, industrial facilities, and critical infrastructure, each showcasing our versatility and expertise. Through economic ups and downs, changing regulations, and technological advancements, we've remained steadfast in our dedication to quality craftsmanship and client satisfaction, cementing our position as a trusted name in India's construction landscape..
           </p>
           

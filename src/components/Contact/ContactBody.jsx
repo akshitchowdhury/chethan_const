@@ -11,7 +11,8 @@ const ContactBody = () => {
             <h2 className="text-4xl font-semibold mb-4">CONTACT INFORMATION</h2>
             <div className='w-[500px] h-[2px] bg-gray-500'></div>
             <p>
-              On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.
+            Partner with Chethan for reliable, safe, and high-quality service delivery across India. Contact us today
+            to discuss your demolition, excavation, or site preparation needs.
             </p>
           </div>
           <div className="flex flex-col lg:flex-row justify-start lg:space-x-8">
