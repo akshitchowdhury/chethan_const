@@ -141,28 +141,29 @@ const ServiceBodyTwo = () => {
             </button>
           </div>
           <Carousel
-            showArrows={true}
+            showArrows={false}
             showStatus={false}
             showIndicators={false}
             showThumbs={false}
             autoPlay={false}
             interval={1000}
             selectedItem={activeTab}
-            className={`text-center  h-${services[activeTab].items.length }px  md:h-[100vh]`}
+            className={`p-6 ${activeTab< 2 ? 'h-auto': 'h-[400px]'} `}
             
           >
             {services.map((service, index) => (
               <div
                 key={index}
-                className={` md:gap-y-12 md:grid ${index === 2 ? 'grid-cols-1 justify-center items-center' : 'grid-cols-3 justify-center items-center'}
-                 justify-center items-center gap-x-4`}
+                // className={` md:gap-y-12 md:flex ${index === 2 ? 'flex-row  justify-center items-center' : 'flex-row   justify-center items-center'}
+                //  justify-center items-center gap-x-4`}
+              className='gap-x-4 flex flex-col md:flex-row flex-1 w-[100%]'
               >
                 {service.items.map((item, itemIndex) => (
                   <div
                     key={itemIndex}
                     className="bg-gray-800 my-4
-                     p-6 rounded-lg flex flex-col justify-center 
-                     items-center h-auto md:h-[300px] shadow-lg transition-all duration-300 hover:bg-gray-700"
+                     p-6 rounded-lg flex  flex-col flex-1 justify-center 
+                     items-center w-[100%] h-auto md:h-[300px] shadow-lg transition-all duration-300 hover:bg-gray-700"
                   >
                     <div className="text-4xl text-yellow-400 mb-4">{item.icon}</div>
                     <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
