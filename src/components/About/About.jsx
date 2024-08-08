@@ -1,8 +1,11 @@
 import React from 'react';
 import { FaHardHat, FaProjectDiagram, FaUsers, FaRocket, FaHandshake, FaShieldAlt, FaMedal, FaTrophy } from 'react-icons/fa';
+
 import AboutHero from './AboutHero';
 import AboutText from './AboutText';
-
+import aboutImg from "../../assets/aboutImg.webp"
+import aboutImg2 from "../../assets/aboutImg2.jpg"
+import Industry from './IndustryRecognition/Industry';
 const About = () => {
   return (
     <>
@@ -13,25 +16,20 @@ const About = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-400">About Chethan Construction</h1>
         
         <section className="mb-16">
+          
+
           <h2 className="text-3xl font-semibold mb-6 text-yellow-300">Experience & Professionalism</h2>
-          <p className="text-lg mb-8 leading-relaxed">
-            At Chethan, we bring over 20 years of extensive experience and unwavering professionalism to every project. We have established a solid reputation for excellence and reliability in the construction industry by successfully executing diverse and challenging projects across India.
+          <div className='flex flex-col md:flex-row py-4'>
+          
+          <p className="text-lg mb-8 leading-relaxed md:w-[700px]">
+          At Chethan, we bring over 20 years of extensive experience and unwavering professionalism to every project. We have established a solid reputation for excellence and reliability in the construction industry by successfully executing diverse and challenging projects across India. Our journey has been marked by continuous innovation, adaptability to evolving industry standards, and a commitment to pushing the boundaries of what's possible in construction. From humble beginnings to becoming a recognized leader in the field, we've consistently delivered results that not only meet but exceed our clients' expectations. 
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { icon: <FaHardHat />, title: "20 Years of Industry Leadership", description: "Our long-standing presence in the industry reflects our commitment to delivering exceptional results." },
-              { icon: <FaProjectDiagram />, title: "Diverse Project Portfolio", description: "From residential developments to large-scale infrastructure, we have demonstrated expertise in tackling various construction challenges." },
-              { icon: <FaUsers />, title: "Skilled Team of Experts", description: "Our professionals are highly trained and experienced, ensuring precision and efficiency in every task." },
-              { icon: <FaRocket />, title: "Advanced Technology & Methods", description: "We utilize cutting-edge technology and innovative methods for superior project outcomes, including precise rock cutting and efficient land development." },
-            ].map((item, index) => (
-              <div key={index} className="bg-gray-700 p-6 rounded-lg shadow-lg transition-all duration-300 hover:bg-gray-600">
-                <div className="text-4xl text-yellow-400 mb-4">{item.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                <p className="text-gray-300">{item.description}</p>
-              </div>
-            ))}
+          
+          <img src={aboutImg2} className='md:w-1/2'/>
           </div>
+          
+          
         </section>
         
         <section className="mb-16">
@@ -51,19 +49,20 @@ const About = () => {
           </div>
         </section>
         
-        <section>
-          <h2 className="text-3xl font-semibold mb-6 text-yellow-300">Industry Recognition</h2>
-          <div className="bg-gray-700 p-8 rounded-lg shadow-lg">
-            <div className="text-6xl text-yellow-400 mb-6 flex justify-center">
-              <FaTrophy />
-            </div>
-            <p className="text-lg text-center leading-relaxed">
-              Our dedication to excellence has earned us recognition within the industry and repeat business from satisfied clients. Whether it's excavation, demolition, or site preparation, Chethan is synonymous with reliability and expertise.
-            </p>
+        <div className='flex flex-col md:flex-row py-4 gap-x-5'>
+          
+          
+        <img src={aboutImg} className='md:w-1/2'/>
+          <p className="text-lg mb-8 leading-relaxed md:w-[700px] py-4">
+          Our portfolio spans a wide range of projects, including residential complexes, commercial buildings, industrial facilities, and critical infrastructure, each showcasing our versatility and expertise. Through economic ups and downs, changing regulations, and technological advancements, we've remained steadfast in our dedication to quality craftsmanship and client satisfaction, cementing our position as a trusted name in India's construction landscape..
+          </p>
+          
           </div>
-        </section>
+        
+      
       </div>
     </div>
+    <Industry/>
     </>
   );
 };
