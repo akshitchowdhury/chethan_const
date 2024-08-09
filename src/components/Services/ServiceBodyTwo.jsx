@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaExclamationCircle, FaOilCan, FaExplosion, FaWrench, FaTools, FaMapMarkedAlt, FaHandshake, Fa500Px } from 'react-icons/fa';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Industry from './Industry/Industry';
 
 const ServiceBodyTwo = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -89,34 +90,35 @@ const ServiceBodyTwo = () => {
         }
       ]
     },
-    {
-      title: 'Why Choose Us',
-      items: [
-        {
-          icon: <FaTools />,
-          title: 'Technical Excellence',
-          description: 'Proficient in complex demolition and excavation projects.'
-        },
-        {
-          icon: <FaHandshake />,
-          title: 'Safety First',
-          description: 'Certified workers and robust safety protocols ensure a secure working environment.'
-        },
-        {
-          icon: <FaHandshake />,
-          title: 'Quality Assurance',
-          description: 'Commitment to delivering superior results and client satisfaction.'
-        },
-        {
-          icon: <FaHandshake />,
-          title: 'Reliability, Flexibility, Efficiency',
-          description: 'Tailored services that minimize disruption and optimize project efficiency.'
-        }
-      ]
-    }
+    // {
+    //   title: 'Why Choose Us',
+    //   items: [
+    //     {
+    //       icon: <FaTools />,
+    //       title: 'Technical Excellence',
+    //       description: 'Proficient in complex demolition and excavation projects.'
+    //     },
+    //     {
+    //       icon: <FaHandshake />,
+    //       title: 'Safety First',
+    //       description: 'Certified workers and robust safety protocols ensure a secure working environment.'
+    //     },
+    //     {
+    //       icon: <FaHandshake />,
+    //       title: 'Quality Assurance',
+    //       description: 'Commitment to delivering superior results and client satisfaction.'
+    //     },
+    //     {
+    //       icon: <FaHandshake />,
+    //       title: 'Reliability, Flexibility, Efficiency',
+    //       description: 'Tailored services that minimize disruption and optimize project efficiency.'
+    //     }
+    //   ]
+    // }
   ];
 
   return (
+    <>
     <div className="bg-gray-900 text-white font-sans p-4">
       <div className="container mx-auto px-4 py-16">
         <div className="bg-inherit p-12 rounded-lg shadow-lg">
@@ -193,7 +195,7 @@ const ServiceBodyTwo = () => {
           </div>
         </div>
 
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <h2 className="text-3xl font-bold mb-6 text-yellow-400">Why Choose Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {extras[1].items.map((item, itemIndex) => (
@@ -207,9 +209,12 @@ const ServiceBodyTwo = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
+      
       </div>
     </div>
+    <Industry/>
+    </>
   );
 };
 
