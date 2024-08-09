@@ -10,7 +10,7 @@ const ExcavationText = () => {
       <div className="text-left px-4 md:mx-[37%] lg:w-[600px]">
     
     
-        <h1 className="text-3xl text-white font-bold mb-2 md:text-5xl lg:text-6xl">
+        <h1 className="text-3xl text-white font-bold mb-2 md:text-4xl lg:text-4xl">
         DEMOLITION<span className="animate-colorChange"> DISMANTLING SERVICES</span>
 </h1>
 <div className='flex flex-row px-12 gap-x-2 md:px-1 md:gap-x-6  items-center'>
