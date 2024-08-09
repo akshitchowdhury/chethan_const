@@ -28,9 +28,10 @@ const ServicesDropdown = () => {
               </Link>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+            <Link to={"/demolition"} className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              
               Demolition Works & Dismantling Services
-              </a>
+              </Link>
             </li>
             <li>
               <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
