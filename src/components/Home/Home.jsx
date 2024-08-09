@@ -5,7 +5,8 @@ import Commitment from '../About/Commitment/Commitment'
 import HomeAbout from './HomeAbout'
 import WhyUs from '../About/IndustryRecognition/WhyUs'
 import HomeServices from './HomeServices'
-
+import ServiceContact from '../Services/ServiceContact'
+import ContactBody from "../Contact/ContactBody"
 const Home = () => {
   return (
     <>
@@ -19,7 +20,10 @@ const Home = () => {
       
         
       </div>
+      
+      
       </div>
+      <ContactBody/>
     </>
   )
 }
