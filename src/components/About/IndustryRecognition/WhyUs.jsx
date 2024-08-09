@@ -2,7 +2,7 @@ import React from 'react'
 import { FaHardHat, FaProjectDiagram, FaUsers, FaRocket, FaHandshake, FaShieldAlt, FaMedal, FaTrophy } from 'react-icons/fa';
 // import "./Industry.css"
 import industryBg from "../../../assets/contactBg.jpg"
-const Industry = () => {
+const WhyUs = () => {
   return (
     <>
 
@@ -41,4 +41,4 @@ const Industry = () => {
   )
 }
 
-export default Industry
+export default WhyUs

@@ -42,13 +42,13 @@ const Nav = () => {
   </Link> */}
 
   <ServicesDropdown/>
-  <Link 
+  {/* <Link 
     to="/gallery" 
     className="text-zinc-50 font-medium relative hover:text-amber-400 group"
   >
     GALLERY
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-  </Link>
+  </Link> */}
   <Link 
     to="/contact" 
     className="text-zinc-50 font-medium relative hover:text-amber-400 group"

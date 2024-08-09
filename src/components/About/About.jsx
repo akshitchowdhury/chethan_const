@@ -5,7 +5,8 @@ import AboutHero from './AboutHero';
 import AboutText from './AboutText';
 import aboutImg from "../../assets/aboutImg.webp"
 import aboutImg2 from "../../assets/aboutImg2.jpg"
-import Industry from './IndustryRecognition/Industry';
+import WhyUs from './IndustryRecognition/WhyUs';
+import Commitment from './Commitment/Commitment';
 const About = () => {
   return (
     <>
@@ -33,7 +34,7 @@ const About = () => {
           
         </section>
         
-        <section className="mb-16">
+        {/* <section className="mb-16">
           <h2 className="text-3xl font-semibold mb-6 text-yellow-300">Our Commitment to Professionalism</h2>
           <div className='w-[300px] md:w-[500px] h-[2px] bg-yellow-300 my-4'></div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -49,8 +50,8 @@ const About = () => {
               </div>
             ))}
           </div>
-        </section>
-        
+        </section> */}
+        <Commitment/>
         <div className='flex flex-col md:flex-row py-4 gap-x-5'>
           
           
@@ -64,7 +65,7 @@ const About = () => {
       
       </div>
     </div>
-    <Industry/>
+    <WhyUs/>
     </>
   );
 };
