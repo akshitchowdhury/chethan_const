@@ -22,7 +22,7 @@ const Industry = () => {
   };
 
   return (
-    <div className="container mx-auto py-16 px-4 ">
+    <div className=" bg-zinc-100 mx-auto py-16 px-16 ">
       <p className="text-zinc-800 font-semibold text-2xl md:text-5xl">
       Why Choose Us
       </p>
@@ -34,8 +34,8 @@ const Industry = () => {
           <ul className="text-lg md:text-xl text-zinc-800 space-y-4">
             {data.map((item, index) => (
               <>
-              <div key={index} className= "flex flex-row gap-x-8 cursor-pointer hover:text-orange-500 transition ease-in-out duration-200 hover:scale-105">
-              <FontAwesomeIcon icon={item.icon} className="text-amber-400"/>
+              <div key={index} className= "flex flex-row gap-x-8 cursor-pointer hover:text-cyan-700 transition ease-in-out duration-200 hover:scale-105">
+              <FontAwesomeIcon icon={item.icon} className="text-cyan-400"/>
               <li
                 
                 className="text-lg font-semibold"
@@ -52,7 +52,7 @@ const Industry = () => {
 
         <div className="w-full lg:w-1/3 text-center lg:text-left">
         
-          <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-cyan-700 mb-4">
             {hoveredItem !== null
               ? (data[hoveredItem].title)
               : "Industry Solutions"}
@@ -64,7 +64,7 @@ const Industry = () => {
           </p>
        
           <Link to="/contact">
-            <button className="bg-orange-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-orange-700 transition duration-300">
+            <button className="bg-orange-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-zinc-950 transition duration-300">
               Learn More
             </button>
           </Link>

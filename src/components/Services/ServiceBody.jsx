@@ -114,6 +114,7 @@ const ServiceBody = () => {
 
   return (
     <div className="bg-gray-900 text-white font-sans p-4">
+    
     <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
           <Carousel
             showArrows={true}

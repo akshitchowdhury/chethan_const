@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { FaExclamationCircle, FaOilCan, FaExplosion, FaWrench, FaTools, FaMapMarkedAlt, FaHandshake, Fa500Px } from 'react-icons/fa';
+import { FaExclamationCircle, FaOilCan, FaExplosion, FaWrench, FaTools, FaMapMarkedAlt, FaHandshake, Fa500Px, FaTruckMonster, FaRockrms } from 'react-icons/fa';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Industry from './Industry/Industry';
+import { FaBomb, FaBuildingCircleExclamation, FaBuildingShield, FaChair, FaRecycle } from 'react-icons/fa6';
 
 const ServiceBodyTwo = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -22,7 +23,7 @@ const ServiceBodyTwo = () => {
           description: 'We use high-quality materials like soil, murram, and gravel for stable backfilling and embankment projects.'
         },
         {
-          icon: <Fa500Px />,
+          icon: <FaRockrms />,
           title: 'Rock Cutting and Breaking Works',
           description: 'Utilizing advanced technology, our team provides precise rock cutting and breaking services.'
         }
@@ -32,27 +33,27 @@ const ServiceBodyTwo = () => {
       title: 'Demolition Works & Dismantling Services',
       items: [
         {
-          icon: <FaWrench />,
+          icon: <FaBomb />,
           title: 'Full Demolition Works',
           description: 'Complete removal of structures with meticulous attention to safety and environmental concerns.'
         },
         {
-          icon: <FaWrench />,
+          icon: <FaBuildingShield/>,
           title: 'Partial Demolition Works',
           description: 'Selective dismantling to maintain structural integrity.'
         },
         {
-          icon: <FaWrench />,
+          icon: <FaWrench/>,
           title: 'Interior Fit-Out Dismantling Works',
           description: 'Safe removal of interior structures for renovation or repurposing.'
         },
         {
-          icon: <FaWrench />,
+          icon: <Fa500Px/>,
           title: 'Warm Shell Demolition Works',
           description: 'Preserving concrete structures while removing internal fixtures.'
         },
         {
-          icon: <FaWrench />,
+          icon: <FaRecycle/>,
           title: 'Reinstatement Works',
           description: 'Renewal, reconstruction, or repair to meet project requirements.'
         }
@@ -62,7 +63,7 @@ const ServiceBodyTwo = () => {
       title: 'Additional Services',
       items: [
         {
-          icon: <FaTools />,
+          icon: <FaBuildingCircleExclamation />,
           title: 'Site Preparations',
           description: 'Jungle Cleaning and Land Leveling, Layout Formation, Soil Supplying and Compaction'
         }
@@ -119,8 +120,10 @@ const ServiceBodyTwo = () => {
 
   return (
     <>
-    <div className="bg-gray-900 text-white font-sans p-4">
+    <div className="bg-gray-900 text-white font-sans  p-4">
       <div className="container mx-auto px-4 py-16">
+      
+    <h1 className='text-center text-4xl text-zinc-50 '>SERVICES WE OFFER</h1>
         <div className="bg-inherit p-12 rounded-lg shadow-lg">
           <div className="flex md:flex-row flex-col gap-y-6 justify-center mb-6">
             <button
@@ -213,7 +216,7 @@ const ServiceBodyTwo = () => {
       
       </div>
     </div>
-    <Industry/>
+    
     </>
   );
 };
