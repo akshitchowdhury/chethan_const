@@ -23,9 +23,9 @@ const ServicesDropdown = () => {
           <ul className="absolute left-0 mt-2 w-60 bg-white shadow-lg 
            py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <Link to={"/excavation"} className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Excavation Services
-              </a>
+              </Link>
             </li>
             <li>
               <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">

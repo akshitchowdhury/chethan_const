@@ -12,6 +12,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
+import ExcavationServices from './components/Services/ExcavationServices/ExcavationServices';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -22,6 +23,7 @@ function App() {
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About/>} />
   <Route path="/services" element={<Services/>} />
+  <Route path="/excavation" element={<ExcavationServices/>} />
   
   <Route path="/contact" element={<Contact/>} />
 </Routes>
