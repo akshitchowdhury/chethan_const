@@ -5,7 +5,7 @@ import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-sv
 
 const NavTop = () => {
   return (
-    <div className="bg-indigo-950 py-2">
+    <div className="bg-cyan-950 py-2">
       <div className="container mx-auto flex flex-wrap items-center justify-between px-4">
         {/* Topbar Left */}
         <div className="topbar-left w-full sm:w-auto flex flex-col sm:flex-row items-center sm:items-start ">

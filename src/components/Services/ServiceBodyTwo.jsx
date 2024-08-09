@@ -168,7 +168,7 @@ const ServiceBodyTwo = () => {
                     key={itemIndex}
                     className="bg-gray-800 my-4
                      p-6 rounded-lg flex  flex-col flex-1 justify-center 
-                     items-center w-[100%] h-auto md:h-[300px] shadow-lg transition-all duration-300 hover:bg-gray-700"
+                     items-center w-[100%] h-auto md:h-[300px] shadow-lg transition-all duration-300 hover:bg-zinc-950"
                   >
                     <div className="text-4xl text-yellow-400 mb-4">{item.icon}</div>
                     <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
@@ -188,7 +188,7 @@ const ServiceBodyTwo = () => {
             {extras[0].items.map((item, itemIndex) => (
               <div
                 key={itemIndex}
-                className="bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:bg-gray-700"
+                className="bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:bg-black"
               >
                 <div className="text-4xl text-yellow-400 mb-4">{item.icon}</div>
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
