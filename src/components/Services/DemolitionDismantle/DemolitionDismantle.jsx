@@ -49,6 +49,13 @@ const DemolitionDismantle = () => {
             </p>
             <img src={demolitionImage} className='md:w-1/2 h-[300px]' alt="Demolition Services" />
           </div>
+          <div className='flex flex-row md:mx-32 gap-x-12'>
+          <FaBuilding className="text-cyan-500 text-3xl" />
+          <FaTools className="text-amber-500 text-3xl" />
+          <FaTrash className="text-zinc-500 text-3xl" />
+          <FaHammer className="text-cyan-500 text-3xl" />
+          <FaBuilding className="text-amber-500 text-3xl" />
+          </div>
         </section>
       </div>
 
