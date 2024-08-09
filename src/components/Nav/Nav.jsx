@@ -5,11 +5,14 @@ import logo from "../../assets/logo.png"
 import ServicesDropdown from './ServicesDropdown/ServicesDropdown';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const handleClick = () => {
+    window.scrollTo({ behavior: 'smooth', top:"0" });
+  };
 
   return (
     <>
     <NavTop/>
-    <nav className="bg-gray-950 lg:bg-gray-950 p-4  overflow-x-hidden ">
+    <nav className="bg-gray-950 lg:bg-gray-950 p-4  ">
       <div className="container mx-auto md:h-[80px] lg:h-[80px] flex justify-between items-center">
         <div className="font-bold flex flex-row items-center">
             <img src={logo} className='w-[150px] h-[120px] py-2'/>
@@ -65,11 +68,11 @@ const Nav = () => {
       </div>
       {isOpen && (
         <div className="md:hidden">
-          <Link to="/" className="block text-white hover:text-gray-300 p-2">Home</Link>
-          <Link to="/about" className="block text-white hover:text-gray-300 p-2">About</Link>
-          <Link to="/services" className="block text-white hover:text-gray-300 p-2">Services</Link>
-          <Link to="/gallery" className="block text-white hover:text-gray-300 p-2">Gallery</Link>
-          <Link to="/contact" className="block text-white hover:text-gray-300 p-2">Contact Us</Link>
+          <Link onClick={ handleClick} to="/" className="block text-white hover:text-gray-300 p-2">Home</Link>
+          <Link onClick={ handleClick} to="/about" className="block text-white hover:text-gray-300 p-2">About</Link>
+          <Link onClick={ handleClick} to="/services" className="block text-white hover:text-gray-300 p-2">Services</Link>
+          <Link onClick={ handleClick} to="/gallery" className="block text-white hover:text-gray-300 p-2">Gallery</Link>
+          <Link onClick={ handleClick} to="/contact" className="block text-white hover:text-gray-300 p-2">Contact Us</Link>
         </div>
       )}
     </nav>

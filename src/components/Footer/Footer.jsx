@@ -20,13 +20,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png"
 const Footer = () => {
+  const handleClick = () => {
+    window.scrollTo({ behavior: 'smooth', top:"0" });
+  };
   return (
     <div className="footer bg-zinc-950 py-8">
       {/* Newslatter and Columns */}
       <div className="container mx-auto px-4">
         {/* Footer Columns */}
         <div className="footer-columns p-10">
-          <div className="flex flex-wrap">
+          <div className="flex flex-col lg:flex-row md:flex-row ">
             {/* Column */}
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0 text-left">
               <div className="-my-12 text-white">
@@ -105,28 +108,28 @@ const Footer = () => {
                 <h3 className="text-lg font-semibold mb-4 mx-14">QUICK LINKS</h3>
                 <ul className="text-left px-20">
                   <li className="relative">
-                    <Link to={"/"}
+                    <Link onClick={ handleClick} to={"/"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Home
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link to={"/about"}
+                    <Link onClick={ handleClick} to={"/about"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       About Us
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link to={"/services"}
+                    <Link onClick={ handleClick} to={"/services"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Services
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link to={"/gallery"}
+                    <Link onClick={ handleClick} to={"/gallery"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Gallery
@@ -135,9 +138,10 @@ const Footer = () => {
                   
 
                   
-                  <li className="relative">
-                    <Link to={"/contact"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                  <li className="relative ">
+                    <Link onClick={ handleClick} to={"/contact"}
+                      className="block mb-2 after:content-[''] after:absolute
+                       after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Contact Us
                     </Link>
@@ -145,11 +149,40 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+            <div className="w-full sm:w-1/3 my-6 lg:my-0 md:my-0mb-12 ">
+              <div className="footer-c-widget h-white list-widget text-white">
+                <h3 className="text-lg font-semibold mb-4 mx-14">SERVICES</h3>
+                <ul className="text-left px-12">
+                  <li className="relative">
+                    <Link onClick={ handleClick} to={"/excavation"}
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                    >
+                      Excavation Services
+                    </Link>
+                  </li>
+                  <li className="relative">
+                    <Link onClick={ handleClick} to={"/demolition"}
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                    >
+                      Demolition/Dismantling Services
+                    </Link>
+                  </li>
+                  <li className="relative">
+                    <Link onClick={ handleClick} to={"/siteprep"}
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                    >
+                      Site Preparations
+                    </Link>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
             {/* Column */}
             {/* Column */}
-            <div className="w-full sm:w-1/3 mb-8 sm:mb-0">
+            <div className="w-full my-6 md:my-0 sm:w-1/3 mb-8 sm:mb-0">
               <div className="footer-c-widget h-white address-list text-white">
-                <h3 className="text-lg md:text-left  font-semibold mb-4">
+                <h3 className="text-lg md:text-left text-center  font-semibold mb-4">
                   CONTACT US
                 </h3>
                 <ul className="text-left">
@@ -158,7 +191,7 @@ const Footer = () => {
                       icon={faMapMarkerAlt}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    4, N S Iyengar St, 4th Block, Kumara Park West, Seshadripuram, Bengaluru, Karnataka 560020
+                    53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar, Bengaluru, Karnataka 560093
                   </li>
                   <hr className="border-gray-700 mb-4" />
                   <h5 className="text-md text-center md:text-left font-semibold mb-2">
