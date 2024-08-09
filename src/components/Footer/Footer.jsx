@@ -128,6 +128,13 @@ const Footer = () => {
                       Services
                     </Link>
                   </li>
+                  <li className="relative">
+                    <Link onClick={ handleClick} to={"/career"}
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                    >
+                      Careers
+                    </Link>
+                  </li>
                   {/* <li className="relative">
                     <Link onClick={ handleClick} to={"/gallery"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
