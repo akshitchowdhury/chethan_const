@@ -23,28 +23,28 @@ const HomeHero = () => {
       >
         <div className="relative">
           <img src={h1} alt="Slide 1" className="object-cover object-top w-full h-[300px] md:h-[500px] lg:h-[500px]" />
-          <div className="absolute inset-0 bg-zinc-700 opacity-50"></div>
+          <div className=" opacity-0"></div>
         </div>
         <div className="relative">
           <img src={h2} alt="Slide 2" className="object-cover object-top w-full h-[300px] md:h-[500px] lg:h-[500px]" />
-          <div className="absolute inset-0 bg-zinc-700 opacity-50"></div>
+          <div className=" opacity-50"></div>
         </div>
         <div className="relative">
           <img src={h3} alt="Slide 3" className="object-cover object-top w-full h-[300px] md:h-[500px] lg:h-[500px]" />
-          <div className="absolute inset-0 bg-zinc-700 opacity-50"></div>
+          <div className=" opacity-50"></div>
         </div>
         <div className="relative">
           <img src={h4} alt="Slide 4" className="object-cover object-center w-full h-[300px] md:h-[500px] lg:h-[500px]" />
-          <div className="absolute inset-0 bg-zinc-700 opacity-50"></div>
+          <div className=" opacity-50"></div>
         </div>
         {/* <div className="relative">
           <img src={h5} alt="Slide 5" className="object-cover object-center w-full h-[300px] md:h-[500px] lg:h-[500px]" />
-          <div className="absolute inset-0 bg-zinc-700 opacity-50"></div>
+          <div className=" opacity-50"></div>
         </div> */}
       </Carousel>
     </div>
     
-    <HomeHeroText/>
+    {/* <HomeHeroText/> */}
     </>
 
   );

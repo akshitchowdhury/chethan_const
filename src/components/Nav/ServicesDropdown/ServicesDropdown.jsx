@@ -5,16 +5,16 @@ const ServicesDropdown = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-      <li 
+      <div 
         className="relative group text-left z-50"  
         onMouseEnter={() => setIsOpen(true)} 
         // onMouseLeave={() => setIsOpen(false)}
       >
          <Link 
     to="/services" 
-    className="text-zinc-50 font-medium relative hover:text-amber-400 group"
+    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
   >
-          SERVICES
+      SERVICES
           <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
           </Link>
   
@@ -42,7 +42,7 @@ const ServicesDropdown = () => {
            
           </ul>
         )}
-      </li>
+      </div>
     );
 }
 
