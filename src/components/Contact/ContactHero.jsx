@@ -1,11 +1,11 @@
 import React from 'react'
-import contactBg from "../../assets/contactBg.jpg"
+import contactBg from "../../assets/coverHero.png"
 const ContactHero = () => {
   return (
     
-      <div className='relative w-full h-[400px]' >
+    <div className='relative w-full h-[250px]' >
   <img src={contactBg} className='object-cover w-full h-full mix-blend-multiply' alt="Background Image"/>
-  <div className='absolute inset-0 bg-blue-400 opacity-40'></div>
+  <div className=''></div>
 </div>
     
   )

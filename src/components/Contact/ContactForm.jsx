@@ -45,7 +45,8 @@ const ContactForm = () => {
             type="text"
             id="name"
             ref={nameRef}
-            className="mt-1 block w-full px-4 py-2 text-white border border-transparent rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            className="mt-1 block w-full px-4 py-2
+             text-white border border-transparent rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
             placeholder="Your Name"
           />
         </div>
