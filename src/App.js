@@ -16,6 +16,7 @@ import ExcavationServices from './components/Services/ExcavationServices/Excavat
 import DemolitionDismantle from './components/Services/DemolitionDismantle/DemolitionDismantle';
 import SitePreparations from './components/Services/SitePreparations/SitePreparations';
 import Career from './components/Career/Career';
+import Clientele from './components/Clientele/Clientele';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -27,6 +28,7 @@ function App() {
   <Route path="/about" element={<About/>} />
   <Route path="/career" element={<Career/>} />
   <Route path="/services" element={<Services/>} />
+  <Route path="/client" element={<Clientele/>} />
   <Route path="/excavation" element={<ExcavationServices/>} />
   <Route path="/demolition" element={<DemolitionDismantle/>} />
   <Route path="/siteprep" element={<SitePreparations/>} />

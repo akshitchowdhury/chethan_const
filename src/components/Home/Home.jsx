@@ -9,6 +9,7 @@ import ServiceContact from '../Services/ServiceContact'
 import ContactBody from "../Contact/ContactBody"
 import ResidentialProjects from './ResidentialProjects/ResidentialProjects'
 import AchievementCounter from './AchievemntCounter/AchievementCounter'
+import Client from './Client/Client'
 const Home = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Home = () => {
       <ResidentialProjects/>
       <AchievementCounter/>
 
+        <Client/>
       {/* <Industry/> */}
       <div className='p-6 bg-gray-950'>
       <HomeServices/>

@@ -23,8 +23,13 @@ const AchievementCounter = () => {
   return (
     <div className="bg-white py-10">
       <div className="max-w-screen-xl mx-auto text-center">
-        <h2 className="text-3xl font-semibold text-amber-600">GROUP HIGHLIGHTS</h2>
-        <div className="border-t-2 border-b-2 border-gray-200 mt-4 mb-8 w-20 mx-auto"></div>
+      <div className="flex items-center justify-center mb-12 px-32">
+        <div className="flex-grow border-t w-[70px] border-black"></div>
+        <h1 className="text-4xl md:text-2xl font-semibold text-center mx-4 text-amber-500">
+          GROUP HIGHLIGHTS
+        </h1>
+        <div className="flex-grow border-t w-[70px] border-black"></div>
+      </div>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           <div className="text-center">
             <FaUsers className="text-6xl text-amber-600 mx-auto" />
