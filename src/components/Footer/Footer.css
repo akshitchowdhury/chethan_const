@@ -1,0 +1,23 @@
+.footer {
+    background-image: url("../../assets/homeHero1.jpg"); /* Adjust the path as needed */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+  }
+  
+  .footer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensures the overlay is on top of the image */
+  }
+  
+  .footer-content {
+    position: relative;
+    z-index: 2; /* Ensures the content is on top of the overlay */
+    color: white;
+    padding: 2rem; /* Adjust padding as needed */
+  }
+  

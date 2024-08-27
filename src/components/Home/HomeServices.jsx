@@ -70,53 +70,6 @@ const HomeServices = () => {
       ]
     }
 ]
-//     const extras = [
-//     {
-//       title: 'Our Expertise',
-//       items: [
-//         {
-//           icon: <FaMapMarkedAlt />,
-//           title: 'Comprehensive Dismantling',
-//           description: 'Efficient removal of partitions, ceilings, flooring, and fixtures for interior fit-outs.'
-//         },
-//         {
-//           icon: <FaMapMarkedAlt />,
-//           title: 'Reinstatement Services',
-//           description: 'Ensuring spaces are reinstated to original or new specifications.'
-//         },
-//         {
-//           icon: <FaMapMarkedAlt />,
-//           title: 'Nationwide Coverage',
-//           description: 'Operating seamlessly across India with consistent quality and stringent safety standards.'
-//         }
-//       ]
-//     },
-//     // {
-//     //   title: 'Why Choose Us',
-//     //   items: [
-//     //     {
-//     //       icon: <FaTools />,
-//     //       title: 'Technical Excellence',
-//     //       description: 'Proficient in complex demolition and excavation projects.'
-//     //     },
-//     //     {
-//     //       icon: <FaHandshake />,
-//     //       title: 'Safety First',
-//     //       description: 'Certified workers and robust safety protocols ensure a secure working environment.'
-//     //     },
-//     //     {
-//     //       icon: <FaHandshake />,
-//     //       title: 'Quality Assurance',
-//     //       description: 'Commitment to delivering superior results and client satisfaction.'
-//     //     },
-//     //     {
-//     //       icon: <FaHandshake />,
-//     //       title: 'Reliability, Flexibility, Efficiency',
-//     //       description: 'Tailored services that minimize disruption and optimize project efficiency.'
-//     //     }
-//     //   ]
-//     // }
-//   ];
 
   return (
     <>
@@ -182,22 +135,7 @@ const HomeServices = () => {
             
         </div>
 
-        {/* <div className="mt-12">
-          <h2 className="text-3xl font-bold mb-6 text-yellow-400">Our Expertise</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {extras[0].items.map((item, itemIndex) => (
-              <div
-                key={itemIndex}
-                className="bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:bg-black"
-              >
-                <div className="text-4xl text-yellow-400 mb-4">{item.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                <p className="text-gray-300">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div> */}
-
+        
       </div>
     </div>
     

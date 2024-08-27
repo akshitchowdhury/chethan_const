@@ -7,13 +7,18 @@ import WhyUs from '../About/IndustryRecognition/WhyUs'
 import HomeServices from './HomeServices'
 import ServiceContact from '../Services/ServiceContact'
 import ContactBody from "../Contact/ContactBody"
+import ResidentialProjects from './ResidentialProjects/ResidentialProjects'
+import AchievementCounter from './AchievemntCounter/AchievementCounter'
 const Home = () => {
   return (
     <>
     <div className='overflow-x-hidden'>
       <HomeHero/>
       <HomeAbout/>
-      <Industry/>
+      <ResidentialProjects/>
+      <AchievementCounter/>
+
+      {/* <Industry/> */}
       <div className='p-6 bg-gray-950'>
       <HomeServices/>
       <Commitment/>

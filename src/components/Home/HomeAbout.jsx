@@ -6,12 +6,12 @@ import { FaBuilding, FaTools, FaTrash, FaHammer } from 'react-icons/fa';
 const HomeAbout = () => {
   return (
     <div className=" bg-gray-50 mx-auto px-4 py-10 ">
-      <div className="flex items-center justify-center mb-12">
-        <div className="flex-grow border-t w-[100px] border-amber-500"></div>
+      <div className="flex items-center justify-center px-32 mb-12">
+        <div className="flex-grow border-t w-[100px] border-black"></div>
         <h1 className="text-4xl md:text-2xl font-semibold text-center mx-4 text-amber-500">
           ABOUT SSS ENTERPRISES
         </h1>
-        <div className="flex-grow border-t w-[100px] border-amber-500"></div>
+        <div className="flex-grow border-t w-[100px] border-black"></div>
       </div>
 
       <section>

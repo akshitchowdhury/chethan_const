@@ -18,7 +18,8 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/Logo (2).png"
+// import "./Footer.css"
 const Footer = () => {
   const handleClick = () => {
     window.scrollTo({ behavior: 'smooth', top:"0" });
@@ -33,13 +34,9 @@ const Footer = () => {
             {/* Column */}
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0 text-left">
               <div className="-my-12 text-white">
-                {/* <img
-                  src={footerLogo}
-                  alt="Footer Logo"
-                  className="w-[150px] h-[140px]"
-                /> */}
+
                 <div className="font-bold flex flex-row items-center">
-            <img src={logo} className='w-[150px] h-[120px] py-2'/>
+            <img src={logo} className='w-[150px] h-[150px] py-2'/>
             
         </div>
                 <p>
@@ -94,7 +91,7 @@ const Footer = () => {
                         href="mailto:admissions@hillsideacademy.in"
                         className="text-white"
                       >
-                        chethancontructions.com
+                        chethanaservices@gmail.com
                       </a>
                     </li>
                   </ul>
@@ -209,7 +206,7 @@ const Footer = () => {
                       icon={faMobileAlt}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    +91-98459 56633
+                    +91-9448334376
                   </li>
                   {/* <hr className="border-gray-700 mb-4" />
                   <li className="flex items-start mb-4">
@@ -258,3 +255,43 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// import footerbg from "../../assets/homeHero3.jpg"
+// const Footer = () => {
+//   return (
+//     <footer className="relative">
+//       <div 
+//         className="absolute inset-0 bg-black opacity-95"
+//         style={{
+//           backgroundImage: `url(${footerbg})`,
+//           backgroundSize: 'cover',
+//           backgroundPosition: 'center',
+//           zIndex: '-1',
+//         }}
+//       ></div>
+//       <div className="relative max-w-6xl mx-auto py-12 text-white flex justify-between">
+//         <div>
+//           <h2 className="font-semibold mb-4">QUICK LINKS</h2>
+//           <ul className="space-y-2">
+//             <li>&gt; MFAR Group</li>
+//             <li>&gt; Awards & Recognitions</li>
+//             <li>&gt; Job Portal</li>
+//             <li>&gt; The Team</li>
+//             <li>&gt; CSR Policy</li>
+//             <li>&gt; Projects</li>
+//             <li>&gt; Annual Report</li>
+//           </ul>
+//         </div>
+//         <div>
+//           <h2 className="font-semibold mb-4">ADDRESS INFO</h2>
+//           <p className="mb-2"># 8 & 8A AVS Compound, 80 Ft. Road, 4th Block Koramangala, Bangalore 560 034. India.</p>
+//           <p className="mb-2">📧 bd@mfarconstructions.com</p>
+//           <p className="mb-2">📞 +91-80 411 02170</p>
+//           <p>📠 91 80 41102250</p>
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// };
+
+// export default Footer;
