@@ -11,7 +11,7 @@ const ContactText = () => {
         <h1 className="text-4xl text-white font-bold mb-2 md:text-3xl lg:text-3xl">
   CONTACT <span className="animate-colorChange">US</span>
 </h1>
-<div className='flex flex-row px-12 gap-x-2 md:px-24 md:gap-x-6 '>
+<div className='flex flex-row px-12 gap-x-2 md:px-8 md:gap-x-6 '>
 <Link to={"/"} className="text-zinc-50 font-medium relative text-sm hover:text-amber-400 group">
   HOME 
   </Link>

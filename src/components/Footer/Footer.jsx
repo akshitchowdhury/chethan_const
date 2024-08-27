@@ -22,7 +22,7 @@ import logo from "../../assets/Logo (2).png"
 // import "./Footer.css"
 const Footer = () => {
   const handleClick = () => {
-    window.scrollTo({ behavior: 'smooth', top:"0" });
+    window.scrollTo({ behavior: 'smooth', top: "0" });
   };
   return (
     <div className="footer bg-zinc-950 py-8">
@@ -36,15 +36,11 @@ const Footer = () => {
               <div className="-my-12 text-white">
 
                 <div className="font-bold flex flex-row items-center">
-            <img src={logo} className='w-[150px] h-[150px] py-2'/>
-            
-        </div>
+                  <img src={logo} className='w-[150px] h-[150px] py-2' />
+
+                </div>
                 <p>
-                  Established in 1992, Chethan Constructions boasts over four decades
-                  of expertise in delivering unparalleled travel experiences and
-                  exceptional customer service. As pioneers in the travel
-                  sector, we continuously evolve to meet the diverse needs of
-                  our clients.
+                  Established in 1994, Shree Chethan Services has been providing our clients with excellent services in Karnataka and across India.
                 </p>
                 <div className="social-icons mt-4">
                   <ul className="flex space-x-3">
@@ -105,28 +101,28 @@ const Footer = () => {
                 <h3 className="text-lg font-semibold mb-4 mx-14">QUICK LINKS</h3>
                 <ul className="text-left px-20">
                   <li className="relative">
-                    <Link onClick={ handleClick} to={"/"}
+                    <Link onClick={handleClick} to={"/"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Home
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={ handleClick} to={"/about"}
+                    <Link onClick={handleClick} to={"/about"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       About Us
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={ handleClick} to={"/services"}
+                    <Link onClick={handleClick} to={"/services"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Services
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={ handleClick} to={"/career"}
+                    <Link onClick={handleClick} to={"/career"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Careers
@@ -139,11 +135,11 @@ const Footer = () => {
                       Gallery
                     </Link>
                   </li> */}
-                  
 
-                  
+
+
                   <li className="relative ">
-                    <Link onClick={ handleClick} to={"/contact"}
+                    <Link onClick={handleClick} to={"/contact"}
                       className="block mb-2 after:content-[''] after:absolute
                        after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
@@ -158,27 +154,27 @@ const Footer = () => {
                 <h3 className="text-lg font-semibold mb-4 mx-14">SERVICES</h3>
                 <ul className="text-left px-12">
                   <li className="relative">
-                    <Link onClick={ handleClick} to={"/excavation"}
+                    <Link onClick={handleClick} to={"/excavation"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Excavation Services
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={ handleClick} to={"/demolition"}
+                    <Link onClick={handleClick} to={"/demolition"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Demolition/Dismantling Services
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={ handleClick} to={"/siteprep"}
+                    <Link onClick={handleClick} to={"/siteprep"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Site Preparations
                     </Link>
                   </li>
-                 
+
                 </ul>
               </div>
             </div>
@@ -260,7 +256,7 @@ export default Footer;
 // const Footer = () => {
 //   return (
 //     <footer className="relative">
-//       <div 
+//       <div
 //         className="absolute inset-0 bg-black opacity-95"
 //         style={{
 //           backgroundImage: `url(${footerbg})`,
