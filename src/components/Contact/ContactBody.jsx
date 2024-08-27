@@ -50,7 +50,7 @@ const ContactBody = () => {
             <div className="flex-1 lg:w-1/2 md:-my-[300px] lg:-my-[160px]">
               <h2 className="text-2xl md:text-4xl font-light text-center mb-5 text-gray-950">SEND US A MESSAGE</h2>
               <div className='w-[200px] h-[2px] md:w-[500px] md:h-[1px] bg-gray-500 mx-12 my-4'></div>
-              <div className="max-w-xl mx-auto">
+              <div className="max-w-xl mx-auto md:h-[570px]">
                 <form id="contact-form" action="https://whizthemes.com/nazmul/php/mail.php" method="post">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="flex flex-col">
@@ -77,16 +77,17 @@ const ContactBody = () => {
                     </div>
                     
                   </div>
-                </form>
-                <div className="text-center my-12">
+                  
+                <div className="text-center my-2">
                       <button type="submit" className="border border-amber-600 text-black 
                       py-2 px-4 
                      my-4 w-[270px] h-[70px] rounded-none hover:bg-amber-600 hover:text-white
                       transition ease-in-out duration-300">SEND NOW</button>
                     </div>
-                <div className="form-output mt-4 text-center">
+                </form>
+                {/* <div className="form-output mt-4 text-center">
                   <p className="form-message"></p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

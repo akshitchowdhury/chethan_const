@@ -17,7 +17,7 @@ const Contact = () => {
     <ContactHero/>
     <ContactText/>
     <ContactBody/>
-    <div >
+    <div className=''>
     {/* <h2 className="text-4xl font-semibold text-center mb-8">WHERE WE LOCATED</h2> */}
       <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.651519988216!2d77.6640818!3d12.993401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1137e2350dff%3A0x5572544ba88cb88!2sChethan%20Theatre!5e0!3m2!1sen!2sin!4v1721997412375!5m2!1sen!2sin"
@@ -28,6 +28,7 @@ const Contact = () => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
         title="Google Maps Embed"
+        
         ></iframe>
       </div>
       </>

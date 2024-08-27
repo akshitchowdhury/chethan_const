@@ -19,7 +19,7 @@ const HomeHero = () => {
         showThumbs={false}
         showStatus={false}
         interval={3000}
-        className="h-full"
+        className="h-full "
       >
         <div className="relative">
           <img src={h1} alt="Slide 1" className="object-cover object-top w-full h-[300px] md:h-[500px] lg:h-[500px]" />

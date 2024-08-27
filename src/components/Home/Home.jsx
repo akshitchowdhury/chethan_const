@@ -20,13 +20,7 @@ const Home = () => {
       <AchievementCounter/>
 
         <Client/>
-      {/* <Industry/> */}
-      <div className='p-6 bg-gray-950'>
-      <HomeServices/>
-      <Commitment/>
       
-        
-      </div>
       
       
       </div>

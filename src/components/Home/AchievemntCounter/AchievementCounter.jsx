@@ -33,27 +33,27 @@ const AchievementCounter = () => {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           <div className="text-center">
             <FaUsers className="text-6xl text-amber-600 mx-auto" />
-            <p className="text-4xl font-semibold">{employees}</p>
+            <p className="text-4xl font-normal">{employees}</p>
             <p className="text-amber-600">No of Employees</p>
           </div>
           <div className="text-center">
             <FaBuilding className="text-6xl text-amber-600 mx-auto" />
-            <p className="text-4xl font-semibold">{projects}</p>
+            <p className="text-4xl font-normal">{projects}</p>
             <p className="text-amber-600">Projects Completed</p>
           </div>
           <div className="text-center">
             <FaMapMarkerAlt className="text-6xl text-amber-600 mx-auto" />
-            <p className="text-4xl font-semibold">{builtArea.toFixed(1)}</p>
+            <p className="text-4xl font-normal">{builtArea.toFixed(1)}</p>
             <p className="text-amber-600">Mill Sq.Ft of Successfully completed Built Up Area</p>
           </div>
           <div className="text-center">
             <FaProjectDiagram className="text-6xl text-amber-600 mx-auto" />
-            <p className="text-4xl font-semibold">{ongoingProjects}</p>
+            <p className="text-4xl font-normal">{ongoingProjects}</p>
             <p className="text-amber-600">Ongoing Projects</p>
           </div>
           <div className="text-center">
             <FaUsers className="text-6xl text-amber-600 mx-auto" />
-            <p className="text-4xl font-semibold">{clients}</p>
+            <p className="text-4xl font-normal">{clients}</p>
             <p className="text-amber-600">No of Clients</p>
           </div>
         </div>
