@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import NavTop from './NavTop/NavTop';
 import logo from "../../assets/Logo (2).png"
 import ServicesDropdown from './ServicesDropdown/ServicesDropdown';
+import AboutDropDown from './AboutDropdpwn/AboutDropDown';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
@@ -26,14 +27,15 @@ const Nav = () => {
     HOME
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
-  <Link 
+  {/* <Link 
     to="/about" 
     className="text-zinc-950 font-medium relative hover:text-amber-400 group"
   >
     ABOUT
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-  </Link>
-  
+  </Link> */}
+  <AboutDropDown/>
+
   <Link 
     to="/career" 
     className="text-zinc-950 font-medium relative hover:text-amber-400 group"

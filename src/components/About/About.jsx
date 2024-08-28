@@ -7,12 +7,13 @@ import aboutImg from "../../assets/aboutImg.webp"
 import aboutImg2 from "../../assets/aboutImg2.jpg"
 import WhyUs from './IndustryRecognition/WhyUs';
 import Commitment from './Commitment/Commitment';
+import AboutBody from './AboutBody';
 const About = () => {
   return (
     <>
     <AboutHero/>
     <AboutText/>
-    
+    <AboutBody/>
     </>
   );
 };
