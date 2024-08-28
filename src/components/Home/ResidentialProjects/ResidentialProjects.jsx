@@ -10,7 +10,7 @@ const ResidentialProjects = () => {
   return (
     <>
 
-<div className="flex items-center justify-center mb-12 px-32">
+<div className="flex items-center justify-center mb-16 my-12 px-32">
         <div className="flex-grow border-t w-[70px] border-black"></div>
         <h1 className="text-4xl md:text-2xl font-semibold text-center mx-4 text-amber-500">
           RESIDENTIAL PROJECTS
