@@ -163,7 +163,7 @@ const HomeServices = () => {
         <div className="flex-grow border-t w-[50px] md:w-[100px] border-black"></div>
       </div>
 
-          <p className="lg:w-1/2 w-full text-justify text-gray-600 leading-relaxed
+          <p className="lg:w-1/2 w-full text-lg text-justify text-gray-600 leading-relaxed
            mb-6">
          Shree Siddhi Sai Enterprises is a Bangalore based top player and pioneers
 in the category of building demolition Contractors in Bangalore Established
