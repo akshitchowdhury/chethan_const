@@ -153,13 +153,18 @@ import s4 from "../../assets/services/SSSE15.jpg"
 const HomeServices = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap w-full mb-20">
-          <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Shree Siddhi Sai Enterprises</h1>
-            <div className="h-[1px] w-72 bg-amber-500 rounded"></div>
-          </div>
-          <p className="lg:w-1/2 w-full text-justify text-gray-600 leading-relaxed mb-6">
+      <div className="container px-5 py-12 mx-auto">
+        <div className="flex flex-col w-full mb-20 items-center">
+        <div className="flex items-center justify-center px-32 mb-12">
+        <div className="flex-grow border-t w-[50px] md:w-[100px] border-black"></div>
+        <h1 className="text-4xl md:text-2xl font-semibold text-center mx-4 text-amber-500">
+           SSS ENTERPRISES
+        </h1>
+        <div className="flex-grow border-t w-[50px] md:w-[100px] border-black"></div>
+      </div>
+
+          <p className="lg:w-1/2 w-full text-justify text-gray-600 leading-relaxed
+           mb-6">
          Shree Siddhi Sai Enterprises is a Bangalore based top player and pioneers
 in the category of building demolition Contractors in Bangalore Established
 in 1994. We have been providing our clients with excellent services in Karnataka and across India

@@ -8,7 +8,7 @@ const ContactBody = () => {
       <div className="container mx-auto">
         <div className="pb-16">
           <div className="text-left mb-8">
-            <h2 className="text-2xl md:text-4xl font-light mb-4 text-gray-950">CONTACT INFORMATION</h2>
+            <h2 className="text-2xl md:text-4xl font-light mb-4 text-amber-600">CONTACT INFORMATION</h2>
             <div className='w-[200px] h-[2px] md:w-[500px] md:h-[1px] bg-gray-500'></div>
             <p className="text-gray-950 mt-4 ">
               Partner with Chethan for reliable, safe, and high-quality service delivery across India. 
@@ -48,7 +48,7 @@ const ContactBody = () => {
               </div>
             </div>
             <div className="flex-1 lg:w-1/2 md:-my-[300px] lg:-my-[160px]">
-              <h2 className="text-2xl md:text-4xl font-light text-center mb-5 text-gray-950">SEND US A MESSAGE</h2>
+              <h2 className="text-2xl md:text-4xl font-light text-center mb-5 text-amber-600">SEND US A MESSAGE</h2>
               <div className='w-[200px] h-[2px] md:w-[500px] md:h-[1px] bg-gray-500 mx-12 my-4'></div>
               <div className="max-w-xl mx-auto md:h-[570px]">
                 <form id="contact-form" action="https://whizthemes.com/nazmul/php/mail.php" method="post">
