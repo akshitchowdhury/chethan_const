@@ -1,6 +1,7 @@
 import React from 'react'
 import TeamHero from './TeamHero'
 import TeamText from './TeamText'
+import TeamBody from './TeamBody'
 
 const AboutOurTeam = () => {
   return (
@@ -10,6 +11,7 @@ const AboutOurTeam = () => {
       <TeamText/>
     </div>
   
+    <TeamBody/>
     </>
     )
 }
