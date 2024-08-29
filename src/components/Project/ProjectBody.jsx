@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Tab } from '@headlessui/react'
 import { HomeIcon, BuildingOffice2Icon, SwatchIcon } from '@heroicons/react/24/outline'
+import ProjectHero from './ProjectHero'
+import ProjectText from './ProjectText'
 
 export default function ProjectBody() {
   const [activeTab, setActiveTab] = useState('ongoing')
@@ -43,8 +45,11 @@ export default function ProjectBody() {
   ]
 
   return (
-    <section className="py-12 bg-zinc-950 text-gray-500">
-      <div className="container mx-auto px-4">
+    <>
+    <ProjectHero/>
+    <ProjectText/>
+    <section className="py-12 bg-zinc-50 text-gray-500">
+      <div className="container mx-auto px-10 md:px-24">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-full">
             <div className="mb-6">
@@ -142,5 +147,6 @@ export default function ProjectBody() {
         </div>
       </div>
     </section>
+    </>
   )
 }
