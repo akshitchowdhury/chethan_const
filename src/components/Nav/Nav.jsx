@@ -4,6 +4,7 @@ import NavTop from './NavTop/NavTop';
 import logo from "../../assets/Logo (2).png"
 import ServicesDropdown from './ServicesDropdown/ServicesDropdown';
 import AboutDropDown from './AboutDropdpwn/AboutDropDown';
+import AboutDropdown from './AboutDropdpwn/AboutDropDown';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
@@ -73,7 +74,8 @@ const Nav = () => {
       {isOpen && (
         <div className="md:hidden">
           <Link onClick={ handleClick} to="/" className="block text-black hover:text-gray-300 p-2">Home</Link>
-          <Link onClick={ handleClick} to="/about" className="block text-black hover:text-gray-300 p-2">About</Link>
+          {/* <Link onClick={ handleClick} to="/about" className="block text-black hover:text-gray-300 p-2">About</Link> */}
+          <AboutDropdown/>
           <Link onClick={ handleClick} to="/project" className="block text-black hover:text-gray-300 p-2">Project</Link>
           <Link onClick={ handleClick} to="/client" className="block text-black hover:text-gray-300 p-2">Clientele</Link>
          
