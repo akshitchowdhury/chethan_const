@@ -31,16 +31,17 @@ const TeamBody = () => {
                             knowledge in the field of Demolition and civil Industry. He is a passionate and dedicated businessman,
                             being in the field for about more than 30+ years. With his vast knowledge and technical experience,
                             he has gained excellent recognition in the demolition industry.
-                            <br /><br />
+                            <br />
+                            He is a strategic, technical, and
+                            coherent solution for any type of challenging works like building collapse in Bangalore for the last 15 years.
+                            He has handled major challenging and big projects like Namma Metro station construction, Bangalore,
+                            NH-4 National Highway road widening works, Bangalore International Airport road widening and
+                            excavation works.
+                            <br />
 
                         </p>
                     </div>
                     <p className="text-justify text-white font-light leading-relaxed">
-                        He is a strategic, technical, and
-                        coherent solution for any type of challenging works like building collapse in Bangalore for the last 15 years.
-                        He has handled major challenging and big projects like Namma Metro station construction, Bangalore,
-                        NH-4 National Highway road widening works, Bangalore International Airport road widening and
-                        excavation works.
 
                         He also oversees rentals of machinery and vehicles.
                         He has a vast experience and knowledge in the demolition and excavation field.
@@ -50,26 +51,28 @@ const TeamBody = () => {
                     <br />
                     <div className="flex flex-col sm:flex-row items-start gap-x-4">
 
-                            <p className="text-justify text-white font-light leading-relaxed">
+                        <p className="text-justify text-white font-light leading-relaxed">
                             <span className='text-xl text-amber-500 font-semibold'>Chethan K Jodidhar, </span>Project Manager at SCS has
-                        been in the field for more than 10 years. He heads
-                        the supervisors, manages and monitors both
-                        manpower as well as machineries required at
-                        work site. He is pioneen handling the dismantling
-                        works, demolition works. He oversees and manages the quotation for projects, preparation of
-                        BOQ, tenders etc. under the guidance of Sri M H
-                        Krishna Murthy
-                    </p>
-                            <br />
+                            been in the field for more than 10 years. He heads
+                            the supervisors, manages and monitors both
+                            manpower as well as machineries required at
+                            work site. He is pioneen handling the dismantling
+                            works, demolition works. He oversees and manages the quotation for projects, preparation of
+                            BOQ, tenders etc. under the guidance of Sri M H
+                            Krishna Murthy.
+                            He also oversees rentals of machineries and vehicles.
+                            He has a vast experience and knowledge in the demolition and excavation field.
+                        </p>
+                        <br />
 
-                        
+
                         <img
                             src={teamMain2}
                             alt="Sri. M H Krishna Murthy"
                             className="w-60 h-48 md:h-[140px] md:w-[170px] rounded-none mr-0 sm:mr-4 mb-4 sm:mb-0"
                         />
                     </div>
-                    
+
 
 
                 </div>
