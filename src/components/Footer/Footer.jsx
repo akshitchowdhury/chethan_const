@@ -20,6 +20,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/Logo (2).png"
 import "./Footer.css"
+import AboutDropdown from "../Nav/AboutDropdpwn/AboutDropDown";
 const Footer = () => {
   const handleClick = () => {
     window.scrollTo({ behavior: 'smooth', top: "0" });
@@ -114,6 +115,7 @@ const Footer = () => {
                     >
                       About Us
                     </Link>
+                    {/* <AboutDropdown/> */}
                   </li>
                   <li className="relative">
                     <Link onClick={handleClick} to={"/services"}

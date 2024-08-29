@@ -90,7 +90,7 @@ export default function AboutDropdown() {
       <button
         onClick={handleClick}
         className="cursor-pointer text-zinc-950 mx-2 md:mx-0
-        md:uppercase font-medium relative hover:text-amber-400 focus:outline-none"
+        md:uppercase md:font-medium relative hover:text-amber-400 focus:outline-none"
         aria-haspopup="true"
         aria-expanded={isOpen}
       >
@@ -106,7 +106,7 @@ export default function AboutDropdown() {
         `}
       >
         <ul 
-          className="bg-inherit py-2"
+          className="bg-inherit md:bg-white py-2"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="about-menu"
