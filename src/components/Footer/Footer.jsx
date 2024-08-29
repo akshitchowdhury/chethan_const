@@ -19,7 +19,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/Logo (2).png"
-// import "./Footer.css"
+import "./Footer.css"
 const Footer = () => {
   const handleClick = () => {
     window.scrollTo({ behavior: 'smooth', top: "0" });
@@ -27,7 +27,8 @@ const Footer = () => {
   return (
     <div className="footer bg-zinc-950 py-8">
       {/* Newslatter and Columns */}
-      <div className="container mx-auto px-4">
+      <div className=" bg-black bg-opacity-50 absolute top-0 left-0 p-4
+      h-full ">
         {/* Footer Columns */}
         <div className="footer-columns p-10">
           <div className="flex flex-col lg:flex-row md:flex-row ">

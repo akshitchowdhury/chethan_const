@@ -24,7 +24,9 @@ const TeamBody = () => {
                         <img
                             src={teamMain}
                             alt="Sri. M H Krishna Murthy"
-                            className="w-24 h-32 md:h-[140px] md:w-[170px] rounded-none mr-0 sm:mr-4 mb-4 sm:mb-0"
+                            className="w-24 h-32 md:h-[140px] 
+                            border-[2px] border-amber-500
+                            md:w-[170px] rounded-none mr-0 sm:mr-4 mb-4 sm:mb-0"
                         />
                         <p className="text-justify text-white font-light leading-relaxed">
                             <span className='text-xl text-amber-500 font-semibold'> Sri. M H Krishna Murthy </span>, proprietor of Shree Chethan Services, has a vast experience and
@@ -69,7 +71,8 @@ const TeamBody = () => {
                         <img
                             src={teamMain2}
                             alt="Sri. M H Krishna Murthy"
-                            className="w-60 h-48 md:h-[140px] md:w-[170px] rounded-none mr-0 sm:mr-4 mb-4 sm:mb-0"
+                            className="w-60 h-48 md:h-[140px] 
+                            border-[2px] border-amber-500 md:w-[170px] rounded-none mr-0 sm:mr-4 mb-4 sm:mb-0"
                         />
                     </div>
 
