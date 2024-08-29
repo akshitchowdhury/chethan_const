@@ -31,7 +31,7 @@ const AboutWhatWeDo = () => {
       <div className="flex flex-col md:flex-row">
         <ul className="list-none space-y-2 md:w-1/2">
           <li
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer  text-justify text-gray-950 font-medium leading-relaxed "
             onMouseEnter={() => setHoveredItem('excavation')}
             onMouseLeave={() => setHoveredItem('excavation')}
           >
@@ -39,7 +39,7 @@ const AboutWhatWeDo = () => {
             Mass Excavation works.
           </li>
           <li
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer text-justify text-gray-950 font-medium leading-relaxed"
             onMouseEnter={() => setHoveredItem('road')}
             onMouseLeave={() => setHoveredItem('excavation')}
           >
@@ -47,7 +47,7 @@ const AboutWhatWeDo = () => {
             Road widening & land leveling works.
           </li>
           <li
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer text-justify text-gray-950 font-medium leading-relaxed"
             onMouseEnter={() => setHoveredItem('blasting')}
             onMouseLeave={() => setHoveredItem('excavation')}
           >
@@ -55,7 +55,7 @@ const AboutWhatWeDo = () => {
             Hard rock excavation with controlled muffled blasting.
           </li>
           <li
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer text-justify text-gray-950 font-medium leading-relaxed"
             onMouseEnter={() => setHoveredItem('nonBlasting')}
             onMouseLeave={() => setHoveredItem('excavation')}
           >
@@ -63,7 +63,7 @@ const AboutWhatWeDo = () => {
             Hard rock excavation with non-blasting methods.
           </li>
           <li
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer text-justify text-gray-950 font-medium leading-relaxed"
             onMouseEnter={() => setHoveredItem('compaction')}
             onMouseLeave={() => setHoveredItem('excavation')}
           >
@@ -71,7 +71,7 @@ const AboutWhatWeDo = () => {
             Backfilling, compaction & site development works.
           </li>
           <li
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer text-justify text-gray-950 font-medium leading-relaxed"
             onMouseEnter={() => setHoveredItem('supplies')}
             onMouseLeave={() => setHoveredItem('excavation')}
           >
@@ -79,7 +79,7 @@ const AboutWhatWeDo = () => {
             Soil supplies, GSB supplies & bitumen supplies.
           </li>
           <li
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer text-justify text-gray-950 font-medium leading-relaxed"
             onMouseEnter={() => setHoveredItem('construction')}
             onMouseLeave={() => setHoveredItem('excavation')}
           >
@@ -87,7 +87,7 @@ const AboutWhatWeDo = () => {
             Construction of precast trenches, hume pipes & embankment works.
           </li>
           <li
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer text-justify text-gray-950 font-medium leading-relaxed"
             onMouseEnter={() => setHoveredItem('demolition')}
             onMouseLeave={() => setHoveredItem('excavation')}
           >
