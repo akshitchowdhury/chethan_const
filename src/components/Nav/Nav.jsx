@@ -37,7 +37,7 @@ const Nav = () => {
   <AboutDropDown/>
 
   <Link 
-    to="/career" 
+    to="/project" 
     className="text-zinc-950 font-medium relative hover:text-amber-400 group"
   >
     PROJECT

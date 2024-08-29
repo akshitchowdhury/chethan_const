@@ -33,7 +33,7 @@ const AboutDropDown = () => {
               </Link>
             </li>
             <li>
-            <Link to={"/siteprep"} className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+            <Link to={"/core"} className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
               
                 Core Principles
               </Link>

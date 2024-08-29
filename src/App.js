@@ -18,6 +18,8 @@ import SitePreparations from './components/Services/SitePreparations/SitePrepara
 import Career from './components/Career/Career';
 import Clientele from './components/Clientele/Clientele';
 import AboutOurTeam from './components/About/AboutOurTeam/AboutOurTeam';
+import CoreValues from './components/About/CoreValues/CoreValues';
+import ProjectBody from "./components/Project/ProjectBody"
 function App() {
   return (
     <div className="App overflow-clip">
@@ -28,8 +30,10 @@ function App() {
   <Route path="/" element={<Home />} />
   <Route path="/aboutUs" element={<About/>} />
   <Route path="/team" element={<AboutOurTeam/>} />
+  <Route path="/core" element={<CoreValues/>} />
   <Route path="/career" element={<Career/>} />
   <Route path="/services" element={<Services/>} />
+  <Route path="/project" element={<ProjectBody/>} />
   <Route path="/client" element={<Clientele/>} />
   <Route path="/excavation" element={<ExcavationServices/>} />
   <Route path="/demolition" element={<DemolitionDismantle/>} />
