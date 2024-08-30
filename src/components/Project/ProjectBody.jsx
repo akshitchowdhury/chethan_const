@@ -49,7 +49,7 @@ export default function ProjectBody() {
     <ProjectHero/>
     <ProjectText/>
     <section className="py-12 bg-zinc-50 text-gray-500">
-      <div className="container mx-auto px-10 md:px-24">
+      <div className="container mx-auto px-10 md:px-36">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="w-full lg:w-full">
             <div className="mb-6">
@@ -57,10 +57,10 @@ export default function ProjectBody() {
                 <Tab.List className="flex space-x-4 mb-4">
                   <Tab
                     className={({ selected }) =>
-                      `w-1/2 py-2 text-sm font-medium rounded-md focus:outline-none ${
+                      `w-1/2 md:w-1/2 md:h-[60px] py-2 text-sm font-medium rounded-none focus:outline-none ${
                         selected
-                          ? 'bg-amber-500 text-black'
-                          : 'bg-zinc-900 text-gray-500 hover:bg-zinc-800'
+                          ? 'bg-amber-500 text-white font-semibold'
+                          : 'bg-gray-50 border border-amber-500 text-zinc-950 hover:bg-amber-500 hover:text-white transition  duration-300'
                       }`
                     }
                     onClick={() => setActiveTab('ongoing')}
@@ -69,10 +69,10 @@ export default function ProjectBody() {
                   </Tab>
                   <Tab
                     className={({ selected }) =>
-                      `w-1/2 py-2 text-sm font-medium rounded-md focus:outline-none ${
+                      `w-1/2 py-2 text-sm font-medium rounded-none focus:outline-none ${
                         selected
-                          ? 'bg-amber-500 text-black'
-                          : 'bg-zinc-900 text-gray-500 hover:bg-zinc-800'
+                          ? 'bg-amber-500 text-white font-semibold'
+                          : 'bg-gray-50 border border-amber-500 text-zinc-950 hover:bg-amber-500 hover:text-white transition  duration-300'
                       }`
                     }
                     onClick={() => setActiveTab('completed')}
