@@ -17,7 +17,7 @@ const services = [
     description: "Precise layout formation to ensure accurate and effective project planning and execution.",
   },
   {
-    icon: < FaTruckLoading className="text-amber-400 text-3xl" />,
+    icon: < FaTruckLoading className="text-amber-400 text-3xl"/>,
     title: "Soil Supplying and Compaction",
     description: "Providing high-quality soil and ensuring proper compaction to create a stable foundation.",
   },

@@ -19,7 +19,7 @@ const ResidentialProjects = () => {
       </div>
 
       {/* //carousel */}
-        <div className="relative w-auto px-36 md:w-full h-[300px] md:h-[500px] lg:h-[500px] ">
+        <div className="relative -mx-[116px] md:-mx-0 w-[600px] px-36 md:w-full h-[300px] md:h-[500px] lg:h-[500px] ">
       <Carousel
         autoPlay
         infiniteLoop
