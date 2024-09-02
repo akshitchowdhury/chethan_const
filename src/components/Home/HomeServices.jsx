@@ -54,7 +54,7 @@ export default function Component() {
             <div key={index} className="xl:w-1/4 md:w-1/2 p-4">
               <div className="relative overflow-hidden group">
                 <img
-                  className="h-64 rounded w-[400px] md:w-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-110"
+                  className="h-64 rounded md:h-[370px] w-[400px] md:w-full object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-110"
                   src={service.image}
                   alt={service.title}
                 />

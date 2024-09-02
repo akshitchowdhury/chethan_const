@@ -118,24 +118,24 @@ const Footer = () => {
                     {/* <AboutDropdown/> */}
                   </li>
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/services"}
+                    <Link onClick={handleClick} to={"/project"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
-                      Services
+                      Project
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link onClick={handleClick} to={"/career"}
+                    <Link onClick={handleClick} to={"/client"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
-                      Careers
+                      Clientele
                     </Link>
                   </li>
                   {/* <li className="relative">
-                    <Link onClick={ handleClick} to={"/gallery"}
+                    <Link onClick={ handleClick} to={"/services"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
-                      Gallery
+                     Services
                     </Link>
                   </li> */}
 
@@ -181,8 +181,6 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            {/* Column */}
-            {/* Column */}
             <div className="w-full my-6 md:my-0 sm:w-1/3 mb-8 sm:mb-0">
               <div className="footer-c-widget h-white address-list text-white">
                 <h3 className="text-lg md:text-left text-center  font-semibold mb-4">
@@ -207,20 +205,7 @@ const Footer = () => {
                     />{" "}
                     +91-9448334376
                   </li>
-                  {/* <hr className="border-gray-700 mb-4" />
-                  <li className="flex items-start mb-4">
-                    <FontAwesomeIcon
-                      icon={faFileAlt}
-                      className="text-amber-400 text-xl px-4 "
-                    />{" "}
-                    <a
-                      href="brochure/Hillside-Academy-Brochure.pdf"
-                      target="_blank"
-                      className="text-white text-center"
-                    >
-                      Download Brochure
-                    </a>
-                  </li> */}
+                  
                   <hr className="border-gray-700 mb-4" />
                   <li className="flex items-start">
                     <FontAwesomeIcon
@@ -240,10 +225,8 @@ const Footer = () => {
             {/* Column */}
           </div>
         </div>
-        {/* Footer Columns */}
+       
       </div>
-      {/* Newslatter and Columns */}
-
       {/* Sub Footer */}
       {/* <div className="sub-footer bg-gray-900 text-white text-center py-4">
         <p className="text-sm">Powered by INNOMATRICS TECH.</p>
@@ -254,43 +237,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// import footerbg from "../../assets/homeHero3.jpg"
-// const Footer = () => {
-//   return (
-//     <footer className="relative">
-//       <div
-//         className="absolute inset-0 bg-black opacity-95"
-//         style={{
-//           backgroundImage: `url(${footerbg})`,
-//           backgroundSize: 'cover',
-//           backgroundPosition: 'center',
-//           zIndex: '-1',
-//         }}
-//       ></div>
-//       <div className="relative max-w-6xl mx-auto py-12 text-white flex justify-between">
-//         <div>
-//           <h2 className="font-semibold mb-4">QUICK LINKS</h2>
-//           <ul className="space-y-2">
-//             <li>&gt; MFAR Group</li>
-//             <li>&gt; Awards & Recognitions</li>
-//             <li>&gt; Job Portal</li>
-//             <li>&gt; The Team</li>
-//             <li>&gt; CSR Policy</li>
-//             <li>&gt; Projects</li>
-//             <li>&gt; Annual Report</li>
-//           </ul>
-//         </div>
-//         <div>
-//           <h2 className="font-semibold mb-4">ADDRESS INFO</h2>
-//           <p className="mb-2"># 8 & 8A AVS Compound, 80 Ft. Road, 4th Block Koramangala, Bangalore 560 034. India.</p>
-//           <p className="mb-2">📧 bd@mfarconstructions.com</p>
-//           <p className="mb-2">📞 +91-80 411 02170</p>
-//           <p>📠 91 80 41102250</p>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
