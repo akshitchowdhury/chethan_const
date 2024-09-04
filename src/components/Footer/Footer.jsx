@@ -37,15 +37,15 @@ const Footer = () => {
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0 text-left">
               <div className="-my-12 text-white">
 
-                <div className="font-bold flex flex-row items-center">
+                <div className="font-bold flex flex-row items-center justify-center">
                   <img src={logo} className='w-[150px] h-[150px] py-2' />
 
                 </div>
-                <p>
+                <p className="text-justify">
                   Established in 1994, Shree Chethan Services has been providing our clients with excellent services in Karnataka and across India.
                 </p>
                 <div className="social-icons mt-4">
-                  <ul className="flex space-x-3">
+                  <ul className="flex space-x-3 justify-center">
                     <li>
                       <FontAwesomeIcon
                         icon={faFacebook}
@@ -78,7 +78,7 @@ const Footer = () => {
                 </div>
                 <br />
                 <div className="address-list mt-2">
-                  <ul className="text-left">
+                  <ul className="flex justify-center text-justify items-center">
                     <li className="flex items-center -my-4 ">
                       <FontAwesomeIcon
                         icon={faEnvelopeOpen}
@@ -98,10 +98,10 @@ const Footer = () => {
             </div>
             {/* Column */}
             {/* Column */}
-            <div className="w-full sm:w-1/3 my-12 lg:my-0 md:my-0mb-12 ">
+            <div className="w-full sm:w-1/3 my-8 lg:my-0 md:my-0 mb-12 ">
               <div className="footer-c-widget h-white list-widget text-white">
-                <h3 className="text-lg font-semibold mb-4 mx-14">QUICK LINKS</h3>
-                <ul className="text-left px-20">
+                <h3 className="text-lg font-semibold mb-4 flex justify-center">QUICK LINKS</h3>
+                <ul className="flex flex-col items-center justify-center">
                   <li className="relative">
                     <Link onClick={handleClick} to={"/"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
@@ -152,10 +152,10 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="w-full sm:w-1/3 my-6 lg:my-0 md:my-0mb-12 ">
+            <div className="w-full sm:w-1/3  lg:my-0 md:my-0 ">
               <div className="footer-c-widget h-white list-widget text-white">
-                <h3 className="text-lg font-semibold mb-4 mx-14">SERVICES</h3>
-                <ul className="text-left px-12">
+                <h3 className="text-lg font-semibold text-center mb-4 mx-14">SERVICES</h3>
+                <ul className="flex flex-col items-center justify-center">
                   <li className="relative">
                     <Link onClick={handleClick} to={"/excavation"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
@@ -183,11 +183,11 @@ const Footer = () => {
             </div>
             <div className="w-full my-6 md:my-0 sm:w-1/3 mb-8 sm:mb-0">
               <div className="footer-c-widget h-white address-list text-white">
-                <h3 className="text-lg md:text-left text-center  font-semibold mb-4">
+                <h3 className="text-lg md:text-center text-center  font-semibold mb-4">
                   CONTACT US
                 </h3>
                 <ul className="text-left">
-                  <li className="flex items-start mb-4">
+                  <li className="flex flex-col md:flex-row justify-center text-center md:text-justify  items-center gap-y-3 mb-4">
                     <FontAwesomeIcon
                       icon={faMapMarkerAlt}
                       className="text-amber-400 text-xl px-4"
@@ -195,10 +195,10 @@ const Footer = () => {
                     53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar, Bengaluru, Karnataka 560093
                   </li>
                   <hr className="border-gray-700 mb-4" />
-                  <h5 className="text-md text-center md:text-left font-semibold mb-2">
+                  <h5 className="text-md text-center  md:text-center font-semibold mb-2">
                     PHONE NO
                   </h5>
-                  <li className="flex items-start mb-4">
+                  <li className="flex flex-col md:flex-row items-center gap-y-3 justify-center mb-4">
                     <FontAwesomeIcon
                       icon={faMobileAlt}
                       className="text-amber-400 text-xl px-4"
@@ -207,7 +207,7 @@ const Footer = () => {
                   </li>
                   
                   <hr className="border-gray-700 mb-4" />
-                  <li className="flex items-start">
+                  {/* <li className="flex items-start">
                     <FontAwesomeIcon
                       icon={faFileArchive}
                       className="text-amber-400 text-xl px-4"
@@ -218,7 +218,7 @@ const Footer = () => {
                     >
                       Privacy Policy
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
