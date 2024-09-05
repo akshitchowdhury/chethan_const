@@ -40,7 +40,7 @@ export default function Nav() {
           <AboutDropdown />
           <MobileNavLink to="/project" onClick={handleClick}>Project</MobileNavLink>
           <MobileNavLink to="/client" onClick={handleClick}>Clientele</MobileNavLink>
-          <MobileNavLink to="/services" onClick={handleClick}>Services</MobileNavLink>
+          <ServicesDropdown/>
           <MobileNavLink to="/contact" onClick={handleClick}>Contact Us</MobileNavLink>
         </div>
       )}
