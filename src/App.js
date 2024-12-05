@@ -11,7 +11,6 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import Services from './components/Services/Services';
 import ExcavationServices from './components/Services/ExcavationServices/ExcavationServices';
 import DemolitionDismantle from './components/Services/DemolitionDismantle/DemolitionDismantle';
 import SitePreparations from './components/Services/SitePreparations/SitePreparations';
@@ -20,6 +19,8 @@ import Clientele from './components/Clientele/Clientele';
 import AboutOurTeam from './components/About/AboutOurTeam/AboutOurTeam';
 import CoreValues from './components/About/CoreValues/CoreValues';
 import ProjectBody from "./components/Project/ProjectBody"
+import Services from './components/CEService/Services';
+import FloatingSocialMedia from './components/FloatingSocialMedia';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -32,7 +33,7 @@ function App() {
   <Route path="/team" element={<AboutOurTeam/>} />
   <Route path="/core" element={<CoreValues/>} />
   <Route path="/career" element={<Career/>} />
-  {/* <Route path="/services" element={<Services/>} /> */}
+  <Route path="/services" element={<Services/>} />
   <Route path="/project" element={<ProjectBody/>} />
   <Route path="/client" element={<Clientele/>} />
   <Route path="/excavation" element={<ExcavationServices/>} />
@@ -43,6 +44,7 @@ function App() {
 </Routes>
 <Footer/>
     </Router>
+    <FloatingSocialMedia/>
     </div>
   );
 }

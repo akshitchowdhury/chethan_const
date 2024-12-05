@@ -16,12 +16,14 @@ export default function Nav() {
         <div className="font-bold flex flex-row items-center">
           <img src={logo} className='w-20 h-24 md:w-40 md:h-40 py-2' alt="Logo" />
         </div>
-        <div className="hidden md:flex space-x-8 lg:space-x-24">
+        <div className="hidden md:flex space-x-4 lg:space-x-16">
           <NavLink to="/">HOME</NavLink>
           <AboutDropdown />
+          {/* <ServicesDropdown /> */}
+          <NavLink to="/SERVICES">SERVICES</NavLink>
           <NavLink to="/project">PROJECT</NavLink>
-          <NavLink to="/client">CLIENTELE</NavLink>
-          <ServicesDropdown />
+          <NavLink to="/client">CLIENTS</NavLink>
+          <NavLink to="#">GALLERY</NavLink>
           <NavLink to="/contact">CONTACT US</NavLink>
         </div>
         <button 

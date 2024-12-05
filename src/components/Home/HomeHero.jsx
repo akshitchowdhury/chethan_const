@@ -19,6 +19,7 @@ const HomeHero = () => {
         showThumbs={false}
         showStatus={false}
         interval={3000}
+        stopOnHover={false}
         className="h-full "
       >
         <div className="relative">
