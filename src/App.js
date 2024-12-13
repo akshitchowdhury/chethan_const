@@ -21,11 +21,13 @@ import CoreValues from './components/About/CoreValues/CoreValues';
 import ProjectBody from "./components/Project/ProjectBody"
 import Services from './components/CEService/Services';
 import FloatingSocialMedia from './components/FloatingSocialMedia';
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <div className="App overflow-clip">
 
 <Router>
+  <ScrollToTop/>
     <Nav/>
     <Routes>
   <Route path="/" element={<Home />} />

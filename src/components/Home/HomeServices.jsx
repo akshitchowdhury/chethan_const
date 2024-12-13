@@ -39,11 +39,11 @@ export default function Component() {
           <div className="flex items-center justify-center px-4 md:px-32 mb-12">
             <div className="flex-grow border-t w-[50px] md:w-[100px] border-black"></div>
             <h1 className="text-2xl md:text-4xl font-semibold text-center mx-4 text-amber-500">
-              SSS ENTERPRISES
+              Who We Are
             </h1>
             <div className="flex-grow border-t w-[50px] md:w-[100px] border-black"></div>
           </div>
-          <p className="lg:w-1/2 w-full text-lg text-justify text-gray-600 leading-relaxed mb-6">
+          <p className="text-center lg:w-1/2 w-full text-lg  text-gray-600 leading-relaxed mb-6">
             Shree Siddhi Sai Enterprises is a Bangalore based top player and pioneers
             in the category of building demolition Contractors in Bangalore. Established
             in 1994, we have been providing our clients with excellent services in Karnataka and across India.

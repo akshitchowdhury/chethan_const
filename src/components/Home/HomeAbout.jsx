@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Link } from 'react-router-dom';
 import aboutImg2 from "../../assets/aboutImg2.jpg"
 import { FaBuilding, FaTools, FaTrash, FaHammer } from 'react-icons/fa';
@@ -31,10 +30,12 @@ const HomeAbout = () => {
 
         </div>
         <div className="flex justify-center my-4">
+          <Link to="/aboutUs">
           <button className="bg-amber-500 text-gray-800 py-2 px-6 rounded-none hover:bg-black 
           hover:text-white transition ease-in-out duration-300">
             KNOW MORE
           </button>
+          </Link>
         </div>
       </section>
 

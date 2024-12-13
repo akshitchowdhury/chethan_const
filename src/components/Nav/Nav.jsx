@@ -23,7 +23,7 @@ export default function Nav() {
           <NavLink to="/SERVICES">SERVICES</NavLink>
           <NavLink to="/project">PROJECT</NavLink>
           <NavLink to="/client">CLIENTS</NavLink>
-          <NavLink to="#">GALLERY</NavLink>
+          {/* <NavLink to="#">GALLERY</NavLink> */}
           <NavLink to="/contact">CONTACT US</NavLink>
         </div>
         <button 
